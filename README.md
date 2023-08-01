@@ -1,3 +1,14 @@
+## To setup backend for this app:
+1. git clone https://github.com/petarjs/uteam-api.git
+2. cd uteam-api/
+3. yarn install
+4. npm run develop
+
+### create .env file in at the root folder(same folder where package.json is) and write following two lines:
+REACT_APP_API_URL = 'https://uteam-api-7nngy.ondigitalocean.app/'
+
+REACT_APP_LOCAL_API_URL = 'http://localhost:1337/'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

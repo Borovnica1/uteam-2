@@ -20,5 +20,6 @@ export {
   PROFILEIMAGEID,
   COMPANYLOGOID,
 };
-// const API_URL = 'https://uteam-api-7nngy.ondigitalocean.app/api/';
-// const API_URL_LOCAL = 'http://localhost:1337/api/';
+// create .env file in at the root folder(same folder where package.json is) and write following two lines and restart the app
+// REACT_APP_API_URL = 'https://uteam-api-7nngy.ondigitalocean.app/'
+// REACT_APP_LOCAL_API_URL = 'http://localhost:1337/'
